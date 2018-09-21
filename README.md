@@ -9,3 +9,5 @@ Replace the values in the wp-config.php file with the login password and the dat
 The database is located at the address [https://drive.google.com/open?id=15D1bkIB8JbM245i2QP06Nd7xbf-EAc2n](https://drive.google.com/open?id=15D1bkIB8JbM245i2QP06Nd7xbf-EAc2n)
 
 **Attention** the unpacked archive has the size of **18.4** gigabytes!
+
+In the file db/my.cnf contains settings Mysql for 8 gigabytes of RAM
