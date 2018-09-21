@@ -1,0 +1,328 @@
+2018-09-18T14:31:28+00:00 CRITICAL Uncaught Error: Class 'WC_API_Products' not found in /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/template-parts/shortcode-part.php:8
+Stack trace:
+#0 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Core.php(57): include()
+#1 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/shortcodes.php(319): tsr\Core->add_shortcode('', '', 'abv_show_table')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(abv_sh...', 'do_shortcode_ta...', '[abv_show_table...')
+#4 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(286): do_shortcode('[abv_show_table...')
+#5 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/plugin.php(203): WP_Hook->apply_filters('[abv_show_table...', Array)
+#6 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/post-template.php(240): apply_filters('the_content', '[abv_show_table...')
+#7 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/t
+
+2018-09-18T14:31:59+00:00 CRITICAL Uncaught Error: Call to undefined function get_products_count() in /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/template-parts/shortcode-part.php:8
+Stack trace:
+#0 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Core.php(57): include()
+#1 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/shortcodes.php(319): tsr\Core->add_shortcode('', '', 'abv_show_table')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(abv_sh...', 'do_shortcode_ta...', '[abv_show_table...')
+#4 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(286): do_shortcode('[abv_show_table...')
+#5 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/plugin.php(203): WP_Hook->apply_filters('[abv_show_table...', Array)
+#6 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/post-template.php(240): apply_filters('the_content', '[abv_show_table...')
+#7 /home/alex/sites/wootest.siteeasy.ks.l
+
+2018-09-18T15:23:12+00:00 CRITICAL Uncaught Error: Class 'WC_API_Products' not found in /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Db.php:32
+Stack trace:
+#0 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/template-parts/shortcode-part.php(28): tsr\Db::add_product()
+#1 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Core.php(57): include('/home/alex/site...')
+#2 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/shortcodes.php(319): tsr\Core->add_shortcode('', '', 'abv_show_table')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(abv_sh...', 'do_shortcode_ta...', '[abv_show_table...')
+#5 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(286): do_shortcode('[abv_show_table...')
+#6 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/plugin.php(203): WP_Hook->apply_filters('[abv_show_table...', Array)
+#7 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/pos
+
+2018-09-18T15:23:18+00:00 CRITICAL Uncaught Error: Class 'WC_API_Products' not found in /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Db.php:32
+Stack trace:
+#0 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/template-parts/shortcode-part.php(28): tsr\Db::add_product()
+#1 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Core.php(57): include('/home/alex/site...')
+#2 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/shortcodes.php(319): tsr\Core->add_shortcode('', '', 'abv_show_table')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(abv_sh...', 'do_shortcode_ta...', '[abv_show_table...')
+#5 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(286): do_shortcode('[abv_show_table...')
+#6 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/plugin.php(203): WP_Hook->apply_filters('[abv_show_table...', Array)
+#7 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/pos
+
+2018-09-18T16:07:28+00:00 CRITICAL Uncaught Error: Class 'WC_API_Products' not found in /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Db.php:32
+Stack trace:
+#0 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/template-parts/shortcode-part.php(28): tsr\Db::add_product()
+#1 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Core.php(57): include('/home/alex/site...')
+#2 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/shortcodes.php(319): tsr\Core->add_shortcode('', '', 'abv_show_table')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(abv_sh...', 'do_shortcode_ta...', '[abv_show_table...')
+#5 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(286): do_shortcode('[abv_show_table...')
+#6 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/plugin.php(203): WP_Hook->apply_filters('[abv_show_table...', Array)
+#7 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/pos
+
+2018-09-18T16:07:55+00:00 CRITICAL Uncaught Error: Class 'WC_API_Products' not found in /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Db.php:32
+Stack trace:
+#0 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/template-parts/shortcode-part.php(28): tsr\Db::add_product()
+#1 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Core.php(57): include('/home/alex/site...')
+#2 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/shortcodes.php(319): tsr\Core->add_shortcode('', '', 'abv_show_table')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(abv_sh...', 'do_shortcode_ta...', '[abv_show_table...')
+#5 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(286): do_shortcode('[abv_show_table...')
+#6 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/plugin.php(203): WP_Hook->apply_filters('[abv_show_table...', Array)
+#7 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/pos
+
+2018-09-18T17:13:44+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function tsr\Db::add_product(), 0 passed in /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/template-parts/shortcode-part.php on line 28 and exactly 1 expected in /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Db.php:26
+Stack trace:
+#0 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/template-parts/shortcode-part.php(28): tsr\Db::add_product()
+#1 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Core.php(57): include('/home/alex/site...')
+#2 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/shortcodes.php(319): tsr\Core->add_shortcode('', '', 'abv_show_table')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(abv_sh...', 'do_shortcode_ta...', '[abv_show_table...')
+#5 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(286): do_shortcode('[abv_show_table...')
+#6 /hom
+
+2018-09-18T17:15:41+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function tsr\Db::add_product(), 0 passed in /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/template-parts/shortcode-part.php on line 28 and exactly 1 expected in /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Db.php:26
+Stack trace:
+#0 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/template-parts/shortcode-part.php(28): tsr\Db::add_product()
+#1 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Core.php(57): include('/home/alex/site...')
+#2 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/shortcodes.php(319): tsr\Core->add_shortcode('', '', 'abv_show_table')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(abv_sh...', 'do_shortcode_ta...', '[abv_show_table...')
+#5 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(286): do_shortcode('[abv_show_table...')
+#6 /hom
+
+2018-09-18T17:16:27+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function tsr\Db::add_product(), 0 passed in /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/template-parts/shortcode-part.php on line 28 and exactly 1 expected in /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Db.php:26
+Stack trace:
+#0 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/template-parts/shortcode-part.php(28): tsr\Db::add_product()
+#1 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Core.php(57): include('/home/alex/site...')
+#2 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/shortcodes.php(319): tsr\Core->add_shortcode('', '', 'abv_show_table')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(abv_sh...', 'do_shortcode_ta...', '[abv_show_table...')
+#5 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(286): do_shortcode('[abv_show_table...')
+#6 /hom
+
+2018-09-18T17:29:14+00:00 CRITICAL Uncaught Error: Call to a member function get_meta_data() on null in /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Db.php:49
+Stack trace:
+#0 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Db.php(34): tsr\Db::add_product(Array)
+#1 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/template-parts/shortcode-part.php(28): tsr\Db::add_products(10)
+#2 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Core.php(57): include('/home/alex/site...')
+#3 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/shortcodes.php(319): tsr\Core->add_shortcode('', '', 'abv_show_table')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(abv_sh...', 'do_shortcode_ta...', '[abv_show_table...')
+#6 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(286): do_shortcode('[abv_show_table...')
+#7 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includ
+
+2018-09-18T17:29:57+00:00 CRITICAL Uncaught Error: Call to a member function get_meta_data() on null in /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Db.php:49
+Stack trace:
+#0 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Db.php(34): tsr\Db::add_product(Array)
+#1 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/template-parts/shortcode-part.php(28): tsr\Db::add_products(10)
+#2 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Core.php(57): include('/home/alex/site...')
+#3 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/shortcodes.php(319): tsr\Core->add_shortcode('', '', 'abv_show_table')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(abv_sh...', 'do_shortcode_ta...', '[abv_show_table...')
+#6 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(286): do_shortcode('[abv_show_table...')
+#7 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includ
+
+2018-09-18T19:35:11+00:00 CRITICAL Uncaught Error: Call to undefined method stdClass::COUNT() in /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Db.php:28
+Stack trace:
+#0 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Ajax.php(30): tsr\Db::get_count_product_db()
+#1 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(286): tsr\Ajax->get_count('')
+#2 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/alex/sites/wootest.siteeasy.ks.lo/wp-admin/admin-ajax.php(100): do_action('wp_ajax_ajax_ge...')
+#5 {main}
+  thrown
+
+2018-09-18T19:35:11+00:00 CRITICAL Uncaught Error: Call to undefined method stdClass::COUNT() in /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Db.php:28
+Stack trace:
+#0 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Ajax.php(30): tsr\Db::get_count_product_db()
+#1 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(286): tsr\Ajax->get_count('')
+#2 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/alex/sites/wootest.siteeasy.ks.lo/wp-admin/admin-ajax.php(100): do_action('wp_ajax_ajax_ge...')
+#5 {main}
+  thrown
+
+2018-09-18T19:35:12+00:00 CRITICAL Uncaught Error: Call to undefined method stdClass::COUNT() in /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Db.php:28
+Stack trace:
+#0 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Ajax.php(30): tsr\Db::get_count_product_db()
+#1 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(286): tsr\Ajax->get_count('')
+#2 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/alex/sites/wootest.siteeasy.ks.lo/wp-admin/admin-ajax.php(100): do_action('wp_ajax_ajax_ge...')
+#5 {main}
+  thrown
+
+2018-09-18T19:35:13+00:00 CRITICAL Uncaught Error: Call to undefined method stdClass::COUNT() in /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Db.php:28
+Stack trace:
+#0 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Ajax.php(30): tsr\Db::get_count_product_db()
+#1 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(286): tsr\Ajax->get_count('')
+#2 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/alex/sites/wootest.siteeasy.ks.lo/wp-admin/admin-ajax.php(100): do_action('wp_ajax_ajax_ge...')
+#5 {main}
+  thrown
+
+2018-09-18T19:35:14+00:00 CRITICAL Uncaught Error: Call to undefined method stdClass::COUNT() in /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Db.php:28
+Stack trace:
+#0 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Ajax.php(30): tsr\Db::get_count_product_db()
+#1 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(286): tsr\Ajax->get_count('')
+#2 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/alex/sites/wootest.siteeasy.ks.lo/wp-admin/admin-ajax.php(100): do_action('wp_ajax_ajax_ge...')
+#5 {main}
+  thrown
+
+2018-09-18T19:35:15+00:00 CRITICAL Uncaught Error: Call to undefined method stdClass::COUNT() in /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Db.php:28
+Stack trace:
+#0 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Ajax.php(30): tsr\Db::get_count_product_db()
+#1 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(286): tsr\Ajax->get_count('')
+#2 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/alex/sites/wootest.siteeasy.ks.lo/wp-admin/admin-ajax.php(100): do_action('wp_ajax_ajax_ge...')
+#5 {main}
+  thrown
+
+2018-09-18T19:35:16+00:00 CRITICAL Uncaught Error: Call to undefined method stdClass::COUNT() in /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Db.php:28
+Stack trace:
+#0 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Ajax.php(30): tsr\Db::get_count_product_db()
+#1 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(286): tsr\Ajax->get_count('')
+#2 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/alex/sites/wootest.siteeasy.ks.lo/wp-admin/admin-ajax.php(100): do_action('wp_ajax_ajax_ge...')
+#5 {main}
+  thrown
+
+2018-09-18T19:35:17+00:00 CRITICAL Uncaught Error: Call to undefined method stdClass::COUNT() in /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Db.php:28
+Stack trace:
+#0 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Ajax.php(30): tsr\Db::get_count_product_db()
+#1 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(286): tsr\Ajax->get_count('')
+#2 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/alex/sites/wootest.siteeasy.ks.lo/wp-admin/admin-ajax.php(100): do_action('wp_ajax_ajax_ge...')
+#5 {main}
+  thrown
+
+2018-09-18T19:35:18+00:00 CRITICAL Uncaught Error: Call to undefined method stdClass::COUNT() in /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Db.php:28
+Stack trace:
+#0 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Ajax.php(30): tsr\Db::get_count_product_db()
+#1 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(286): tsr\Ajax->get_count('')
+#2 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/alex/sites/wootest.siteeasy.ks.lo/wp-admin/admin-ajax.php(100): do_action('wp_ajax_ajax_ge...')
+#5 {main}
+  thrown
+
+2018-09-18T19:35:19+00:00 CRITICAL Uncaught Error: Call to undefined method stdClass::COUNT() in /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Db.php:28
+Stack trace:
+#0 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Ajax.php(30): tsr\Db::get_count_product_db()
+#1 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(286): tsr\Ajax->get_count('')
+#2 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/alex/sites/wootest.siteeasy.ks.lo/wp-admin/admin-ajax.php(100): do_action('wp_ajax_ajax_ge...')
+#5 {main}
+  thrown
+
+2018-09-18T19:35:20+00:00 CRITICAL Uncaught Error: Call to undefined method stdClass::COUNT() in /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Db.php:28
+Stack trace:
+#0 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Ajax.php(30): tsr\Db::get_count_product_db()
+#1 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(286): tsr\Ajax->get_count('')
+#2 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/alex/sites/wootest.siteeasy.ks.lo/wp-admin/admin-ajax.php(100): do_action('wp_ajax_ajax_ge...')
+#5 {main}
+  thrown
+
+2018-09-18T19:35:21+00:00 CRITICAL Uncaught Error: Call to undefined method stdClass::COUNT() in /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Db.php:28
+Stack trace:
+#0 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Ajax.php(30): tsr\Db::get_count_product_db()
+#1 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(286): tsr\Ajax->get_count('')
+#2 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/alex/sites/wootest.siteeasy.ks.lo/wp-admin/admin-ajax.php(100): do_action('wp_ajax_ajax_ge...')
+#5 {main}
+  thrown
+
+2018-09-18T19:35:22+00:00 CRITICAL Uncaught Error: Call to undefined method stdClass::COUNT() in /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Db.php:28
+Stack trace:
+#0 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Ajax.php(30): tsr\Db::get_count_product_db()
+#1 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(286): tsr\Ajax->get_count('')
+#2 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/alex/sites/wootest.siteeasy.ks.lo/wp-admin/admin-ajax.php(100): do_action('wp_ajax_ajax_ge...')
+#5 {main}
+  thrown
+
+2018-09-18T19:35:23+00:00 CRITICAL Uncaught Error: Call to undefined method stdClass::COUNT() in /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Db.php:28
+Stack trace:
+#0 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Ajax.php(30): tsr\Db::get_count_product_db()
+#1 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(286): tsr\Ajax->get_count('')
+#2 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/alex/sites/wootest.siteeasy.ks.lo/wp-admin/admin-ajax.php(100): do_action('wp_ajax_ajax_ge...')
+#5 {main}
+  thrown
+
+2018-09-18T19:35:24+00:00 CRITICAL Uncaught Error: Call to undefined method stdClass::COUNT() in /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Db.php:28
+Stack trace:
+#0 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Ajax.php(30): tsr\Db::get_count_product_db()
+#1 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(286): tsr\Ajax->get_count('')
+#2 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/alex/sites/wootest.siteeasy.ks.lo/wp-admin/admin-ajax.php(100): do_action('wp_ajax_ajax_ge...')
+#5 {main}
+  thrown
+
+2018-09-18T19:35:25+00:00 CRITICAL Uncaught Error: Call to undefined method stdClass::COUNT() in /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Db.php:28
+Stack trace:
+#0 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Ajax.php(30): tsr\Db::get_count_product_db()
+#1 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(286): tsr\Ajax->get_count('')
+#2 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/alex/sites/wootest.siteeasy.ks.lo/wp-admin/admin-ajax.php(100): do_action('wp_ajax_ajax_ge...')
+#5 {main}
+  thrown
+
+2018-09-18T19:35:50+00:00 CRITICAL Uncaught Error: Call to undefined method stdClass::COUNT() in /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Db.php:28
+Stack trace:
+#0 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Ajax.php(30): tsr\Db::get_count_product_db()
+#1 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(286): tsr\Ajax->get_count('')
+#2 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/alex/sites/wootest.siteeasy.ks.lo/wp-admin/admin-ajax.php(100): do_action('wp_ajax_ajax_ge...')
+#5 {main}
+  thrown
+
+2018-09-18T19:36:19+00:00 CRITICAL Uncaught Error: Call to undefined method stdClass::COUNT() in /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Db.php:28
+Stack trace:
+#0 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Ajax.php(30): tsr\Db::get_count_product_db()
+#1 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(286): tsr\Ajax->get_count('')
+#2 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/alex/sites/wootest.siteeasy.ks.lo/wp-admin/admin-ajax.php(100): do_action('wp_ajax_ajax_ge...')
+#5 {main}
+  thrown
+
+2018-09-18T19:36:36+00:00 CRITICAL Uncaught Error: Call to undefined method stdClass::COUNT() in /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Db.php:28
+Stack trace:
+#0 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Ajax.php(30): tsr\Db::get_count_product_db()
+#1 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(286): tsr\Ajax->get_count('')
+#2 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/alex/sites/wootest.siteeasy.ks.lo/wp-admin/admin-ajax.php(100): do_action('wp_ajax_ajax_ge...')
+#5 {main}
+  thrown
+
+2018-09-18T19:37:21+00:00 CRITICAL Uncaught Error: Call to undefined method stdClass::COUNT() in /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Db.php:28
+Stack trace:
+#0 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Ajax.php(30): tsr\Db::get_count_product_db()
+#1 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(286): tsr\Ajax->get_count('')
+#2 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/alex/sites/wootest.siteeasy.ks.lo/wp-admin/admin-ajax.php(100): do_action('wp_ajax_ajax_ge...')
+#5 {main}
+  thrown
+
+2018-09-18T19:37:23+00:00 CRITICAL Uncaught Error: Call to undefined method stdClass::COUNT() in /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Db.php:28
+Stack trace:
+#0 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Ajax.php(30): tsr\Db::get_count_product_db()
+#1 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(286): tsr\Ajax->get_count('')
+#2 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /home/alex/sites/wootest.siteeasy.ks.lo/wp-admin/admin-ajax.php(100): do_action('wp_ajax_ajax_ge...')
+#5 {main}
+  thrown
+

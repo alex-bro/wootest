@@ -1,0 +1,33 @@
+2018-09-20T04:25:52+00:00 CRITICAL Uncaught Error: Call to undefined method stdClass::MAX() in /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Db.php:105
+Stack trace:
+#0 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/template-parts/shortcode-part.php(28): tsr\Db::insert_to_base()
+#1 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Core.php(61): include('/home/alex/site...')
+#2 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/shortcodes.php(319): tsr\Core->add_shortcode('', '', 'abv_show_table')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(abv_sh...', 'do_shortcode_ta...', '[abv_show_table...')
+#5 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(286): do_shortcode('[abv_show_table...')
+#6 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/plugin.php(203): WP_Hook->apply_filters('[abv_show_table...', Array)
+#7 /home/alex/sites/wootest.siteeasy.ks.lo/wp-i
+
+2018-09-20T04:26:02+00:00 CRITICAL Uncaught Error: Call to undefined method stdClass::MAX() in /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Db.php:105
+Stack trace:
+#0 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/template-parts/shortcode-part.php(28): tsr\Db::insert_to_base()
+#1 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Core.php(61): include('/home/alex/site...')
+#2 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/shortcodes.php(319): tsr\Core->add_shortcode('', '', 'abv_show_table')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(abv_sh...', 'do_shortcode_ta...', '[abv_show_table...')
+#5 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(286): do_shortcode('[abv_show_table...')
+#6 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/plugin.php(203): WP_Hook->apply_filters('[abv_show_table...', Array)
+#7 /home/alex/sites/wootest.siteeasy.ks.lo/wp-i
+
+2018-09-20T04:26:55+00:00 CRITICAL Uncaught Error: Call to undefined method stdClass::MAX() in /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Db.php:105
+Stack trace:
+#0 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/template-parts/shortcode-part.php(28): tsr\Db::insert_to_base()
+#1 /home/alex/sites/wootest.siteeasy.ks.lo/wp-content/plugins/tsr/class/Core.php(61): include('/home/alex/site...')
+#2 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/shortcodes.php(319): tsr\Core->add_shortcode('', '', 'abv_show_table')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/shortcodes.php(197): preg_replace_callback('/\\[(\\[?)(abv_sh...', 'do_shortcode_ta...', '[abv_show_table...')
+#5 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/class-wp-hook.php(286): do_shortcode('[abv_show_table...')
+#6 /home/alex/sites/wootest.siteeasy.ks.lo/wp-includes/plugin.php(203): WP_Hook->apply_filters('[abv_show_table...', Array)
+#7 /home/alex/sites/wootest.siteeasy.ks.lo/wp-i
+
